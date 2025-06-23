@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e2b560652c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Design</p>
+                <h1>Hi, I'm <span>Hasnain</span> <br> Javed From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="hassu2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"I’m a self-taught and passionate web developer with a keen eye for design and detail. I specialize in creating responsive, user-friendly websites that not only look great but also deliver smooth user experiences. From crafting clean and maintainable code to transforming ideas into digital realities, I love bringing websites to life — one line of code at a time. With every project, I aim to merge creativity with functionality and ensure that every interaction feels seamless, modern, and meaningful."!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/ioS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June - July</span><br>Web Development Internship at CodSoft.</li>
+                            <li><span>2023 - 2024</span><br>Web Design Training at UpGrad.</li>
+                            <li><span>May - July</span><br>Internship at ekart eCommerce.</li>
+                            <li><span>2021 - 2022</span><br> App Development Training at SkillsIndia.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2025</span><br>MERN Stack Developer</li>
+                            <li><span>2024 - Current</span><br>MCA from Marwari College Ranchi.</li>
+                            <li><span>2021 - 2024</span><br>BCA from Sai Baba College Ambikapur.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!---------------services----------------->
+   <div id="services">
+         <div class="container">
+             <h1 class="sub-title">My Services</h1>
+             <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>"I create clean, modern, and responsive web designs that perfectly blend visual appeal with user-friendly functionality — giving your brand a strong online identity."</p>
+                    <a href="#">Lern more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>"I design clean, user-centric interfaces that focus on usability, clarity, and engagement — creating seamless experiences that users love to interact with."</p>
+                    <a href="#">Lern more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>"I design intuitive, responsive, and visually appealing app interfaces that deliver seamless user experiences — whether it’s for Android, iOS, or the web."</p>
+                    <a href="#">Lern more</a>
+                </div>
+             </div>
+         </div>
+   </div>
+   <!------------------------Portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.webp">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you to the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>                  
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.webp">
+                     <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connect you to your favorite music with just one tap.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>                  
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg">                   
+                     <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connect you to smarter shopping- fast,easy,and all.       
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>                  
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------contect--------->
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> hjhasnain78692@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9302124305</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BpUE%2BOgM3RHCcaRVHmIDdgQ%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/hasnain.hj.5"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/hasnain__hj/?__pwa=1"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://x.com/hjhasnain78692"><i class="fa-brands fa-square-x-twitter"></i></a>
+                       
+                    </div>  
+                    <a href="cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Hasnain. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+<!--------javaScript------->
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+             for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+         function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+ <script>
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbynW3sG7WOQiEJM5g2zuo6U9cOAOx2WSZFr_wksawqWJiZLP52agDclcv8XwIWPFqgBig/exec'
+         const form = document.forms['submit-to-google-sheet']
+         const msg = document.getElementById("msg")
+
+         form.addEventListener('submit', e => {
+         e.preventDefault()
+         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+         .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+         })
+         .catch(error => console.error('Error!', error.message))
+       })
+</script> 
+
+    
+</body>
+</html>
